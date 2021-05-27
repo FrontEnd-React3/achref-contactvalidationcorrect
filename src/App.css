@@ -1,0 +1,504 @@
+.email-input {
+  width: 300px;
+  padding: 5px 10px;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 17px; 
+}
+
+.success {
+  color:green;
+}
+
+.error {
+  color: red;
+}
+
+/* -----above is added newly on 26/07 20:00 */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  width: 100;
+  height: 100vh;
+  background: url("https://www.bitdefender.com/media/uploads/2020/02/rami-al-zayat-w33-zg-dNL4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  background: #1f2235;
+  z-index: 1;
+}
+.navbar__container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__left-logo img {
+  width: 110px;
+}
+.navbar__right {
+  display: flex;
+  list-style-type: none;
+}
+.navbar__right li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 15px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-left: 80px;
+}
+.h-650 {
+  height: 650px;
+}
+.alignCenter {
+  align-items: center;
+}
+.justifyCenter {
+  justify-content: center;
+}
+
+.row {
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+.header__ul {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+.header__ul li {
+  width: 50px;
+  height: 50px;
+  border: 2px solid#ff4a57;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+.header__ul li:first-child {
+  margin-left: 0;
+}
+.header__section h1 {
+  font-size: 57px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.header__section p {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+.btn {
+  outline: none;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-outline {
+  border: 2px solid#ff4a57;
+  border-radius: 50px;
+  padding: 13px 40px;
+}
+.btn-smart {
+  background: #ff4a57;
+  padding: 13px 40px;
+  border-radius: 50px;
+}
+.play {
+  font-size: 25px !important;
+  padding-top: 10px;
+}
+.banner__img {
+  background: red;
+}
+img {
+  width: 180%;
+  height: auto;
+}
+.services {
+  background: black;
+  color: #fff;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 500;
+  color: #ff4a57;
+  font-size: 16px;
+  color: ;
+}
+.mainHeader {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.mainContent {
+  font-size: 16px;
+  color: #dfdfdf;
+  width: calc(150px + 40vw);
+  margin: 0 auto;
+}
+.commenBorder {
+  background: #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+.services__box {
+  padding: 40px;
+  width: 25;
+  margin: 3%;
+  background: #23263a;
+  color: #fff;
+  margin: 20px;
+  transition: all 0.4s linear;
+}
+.services__box:hover {
+  background: white;
+}
+.common-icons {
+  width: 100%;
+  font-size: 40px;
+  color: #ff4a57;
+  margin-bottom: 15px;
+}
+.services__box:hover .common-icons {
+  color: #fff;
+}
+.services__box-header {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+.services__box-p {
+  font-size: 14px;
+  color: #dfdfdf;
+  width: 100%;
+  text-align: center;
+}
+.services__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+.common {
+  margin: 0px auto;
+  text-align: center;
+  width: 100%;
+  padding-top: 80px;
+}
+.pricescontainer {
+  width: 90vw;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 900px) {
+  .services__box {
+    width: 150px;
+  }
+  .services__container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .services__box {
+    width: 94%;
+    margin: 3%;
+  }
+}
+
+#Nav-ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#Nav-ul li {
+  margin: 0vw 2vw;
+}
+.about {
+  width: 100%;
+  background: black;
+  padding: 100px 0;
+}
+h3 {
+  color: #dfdfdf;
+}
+img {
+  width: 80%;
+}
+.img-navbar {
+  width: 150px;
+}
+.about__img {
+  padding: 30px;
+}
+
+.about__info {
+  color: #fff;
+}
+.about__info h1 {
+  margin-bottom: 30px;
+}
+.about__info-p1 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.about__info-p2 {
+  font-size: 16px;
+}
+.col-6 {
+  color: #fff;
+}
+.info__contacts {
+  margin-top: 20px;
+}
+.info__contacts strong {
+  color: #ff4a57;
+}
+.info__contacts p {
+  margin-top: 3px;
+}
+.info__contacts .col-6 {
+  margin: 10px 0;
+}
+.prices {
+  width: 100vw;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.prices-1 {
+  background: red;
+}
+.price {
+  background: black;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 35px 0px;
+  text-align: center;
+  min-width: 218px;
+}
+.priceHeding {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.price__rs {
+  font-size: 70px;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+.price__rs span {
+  font-size: 25px;
+}
+.price ul {
+  list-style-type: none;
+}
+.price ul li {
+  margin: 5px 0;
+  border-bottom: 1px solid #3c3c3c;
+  font-size: 14px;
+  padding: 15px 0;
+}
+.contact {
+  padding: 100px 0;
+  background: url("https://cdn.wallpapersafari.com/39/85/WpaSmc.jpg");
+}
+.contactSection-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contactSection-logo img {
+  margin: 0 auto;
+  width: 130px;
+}
+.contactSection p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.contactCircles {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.contactCircles li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: lightblue;
+  margin: 0 12px;
+}
+.navWhite {
+  color: white !important;
+}
+.navWhite:hover {
+  color: #ff4a57 !important;
+}
+* {
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  background: gray;
+  color: #18dcff;
+}
+.contact-form {
+  margin: 1rem auto 0;
+  max-width: 50%;
+  max-width: 350px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid #18dcff;
+  background: #363434;
+  padding: 0 30px 30px;
+  box-shadow: 0px 4px 10px rgb(51 51 51 / 64%);
+  padding-top: 35px;
+}
+h2 {
+  margin-top: 35px;
+  text-align: center;
+}
+.form-content {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr) 105px;
+}
+input,
+textarea {
+  background: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1rem;
+  border-bottom: 1px solid#cec950;
+  color: #18dcff;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgb(190, 188, 188);
+}
+input,
+.email-content,
+textarea {
+  width: 90%;
+  margin: 0 auto;
+}
+input {
+  padding: 24px 0 12px;
+}
+.email-content {
+  position: relative;
+}
+.email-content input {
+  width: 100%;
+}
+#not-mail {
+  display: none;
+  position: absolute;
+  top: 4px;
+  color: #ff4d4d;
+  right: 0;
+  transform-origin: 50% 50%;
+}
+@keyframes dongle {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(-10px, 0px);
+  }
+  20% {
+    transform: translate(10px, 0px);
+  }
+  30% {
+    transform: translate(-10px, 0px);
+  }
+  40% {
+    transform: translate(10px, 0px);
+  }
+  50% {
+    transform: translate(-10px, 0px);
+  }
+  60% {
+    transform: translate(10px, 0px);
+  }
+  70% {
+    transform: translate(-10px, 0px);
+  }
+  80% {
+    transform: translate(10px, 0px);
+  }
+  90% {
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+textarea {
+  resize: none;
+  padding: 24px 0;
+}
+.button {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  color: #cec950;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  width: 100%;
+}
+.button:hover {
+  letter-spacing: 2px;
+}
+.error::placeholder {
+  color: #ff4d4d;
+}
+.form-message {
+  margin-top: 10px;
+  padding: 12px;
+  opacity: 0;
+  transition: 0.2s ease;
+  color: black;
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(51, 51, 51, 0.3);
+}
